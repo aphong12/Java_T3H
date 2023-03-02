@@ -1,0 +1,16 @@
+1, Thẻ HTML
+a, h1->h6: là thẻ block:
+heading : đầu mục 
+đặc trưng: in đậm, các lề tên dưới, cỡ chữ giảm dần từ H1 đến h6
+alt: hiển thị khi ảnh bị lỗi/ atribuild trong thẻ HTML
+2. atribuild: 
+- cấu trúc: tên= "giá trị"
+- 3 atribuild có ở mọi thẻ: class, id(identifiler), title, style, 
+  . class: Nhóm các thẻ html có cùng 1 yếu tố nào đấy
+  . id: xác định duy nhất và chỉ duy nhất 1 thẻ html. 1 id chỉ trong 1 thẻ html
+-title: tiêu đề cho thẻ (tiều đề sẽ hiển thị dưới dạng tooltip)
+- style: dùng để viết css cho thẻ (css line - ít dùng)
+target="_blank": dùng để mở tap mới.
+trong table: tr: hàng
+
+
