@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Inter', sans-serif;
+    font-size: 500;
+    color:rgb(207, 18, 18);
+}
+.tour{
+    width: calc(33.33% - 30px);
+    height: auto;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 30px;
+}
+.tour-title{
+    margin-top: 20px;
+    margin-bottom: 10PX;
+    color: #23262F;
+    font-size: 18px;
+    font-family: Inter;
+    font-style: medium;
+    font-weight: 500;
+    line-height: 1.56;
+}
+.tour-rating{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.tour-review{
+    display: flex;
+    align-items: center;
+}
+.tour-duration,
+.tour-review-count{
+    color: #3B3E44;
+
+}
+.tour-button{
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+    padding: 8px 17px;
+    background-color: #3B71FE;
+    text-decoration: none;
+    border-radius: 8px;
+    line-height: 17px;
+   
+}
+.tour-image{
+    border-radius: 10px 10px 0px 0px;
+    width: 100%;
+}
+.tour-list-contener{
+
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.tour-list{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    gap: 30px;
+}

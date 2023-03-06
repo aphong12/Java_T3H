@@ -1,0 +1,78 @@
+- div: dùng để chia các khối (data-herf)
+- p : văn bản 
+- h1->h6 thẻ tiêu đề
+- thẻ liên kết a:
+ . herf: dùng để gắn link, target="_black" dùng để đi sang tap mới 
+ . trong thẻ liên kết dùng rel="noopener noreferrer": dùng để bảo mật
+img:  hiển thị hình ảnh 
+-ol : thẻ hiện thị danh sách(oderlist): danh sách có thứ tự 
+ . hay dùng làm mục lục, sản phẩm bán hàng
+- ul : thẻ hiện thị danh sách nhưng danh sách không có thứ tự, (unoderlist)
+* thẻ block- header 
+         - footder
+         - aside
+         - main
+         - section
+- iframe : dùng để nhúng vidio lên wed
+- span : 
+- strong
+- em
+-b
+-i
+* sự khác nhau giũa thẻ inline và thẻ block
+ - thẻ inline(span): bằng có độ rộng mà nội dung nó chứa, 
+   nếu có nhiều thẻ inline với nhau thì nó sẽ nằm trên một hàng 
+   thẻ inline sẽ bị hạn chế về css
+   -> nội dung chữ ngắn nên dùng thẻ inline
+ - thẻ block: sẽ có độ rộng full 100% phần tử đang chứa nó
+   nếu thẻ block nằm với nhau thì nó sẽ xuống hàng 
+   -> nội dung chữ dài nên dùng thẻ block
+* sự khác nhau giữa id và class
+ - class: có thể trùng nhau, sử dụng cho nhiều phần từ giống nhau
+ - id: trong 1 trang wed không sử dụng id trùng nhau
+* Bem (block element modifier): là phương pháp đặt tên co class, id ( không nên dặt tên class id bằng tiếng việt )
+ - tiêu đề title
+ - danh mục: category
+semantic: là thẻ gì
+
+{
+  _price: giá
+  _image: hình ảnh
+}
+ thẻ tiêu đề:  h1->6 
+ h1: mỗi trang chỉ dùng tối đa thẻ h1, thường dùng cho những tiêu đề lớn của trang 
+ h2: được dùng nhiều cho những block to
+ h3: được dùng nhiều cho những block nhỏ
+
+thẻ a: là thẻ inline, chắc chắn dùng cho liên kết
+  {
+
+  }
+- khi dùng taget có giá trị là _black thì thẻ a nên thêm thuộc tính (rel="noopener noreferrer")
+css
+- 1, sẽ có sẵn ở google fonts
+- 2, Không có sẵn google fonts tải trên mạng về máy 
+    - font_weight: độ đậm nhạt của chữ
+    - font_family: thiết lập font chữ chuyển vào font name( tên của font chữ)
+css : tag, class,id,attibute
+tag: h1,h2,h3, div, body, span, 3
+class: .name, .tour,.tour-header
+id: #header, #content
+attibute: later
+- cấu trúc 1 đoạn css:
+ 
+cssSelectors {
+  property: value;
+
+}
+- box-sizing
+ . conten_box: độ rộng của một khối sẽ bằng width + parding (left+right) border=(left+right)
+- border_box: độ rông lúc này của một khối bao gồm parding + border
+=> Nên áp dụng cho toàn bộ cssSelectors
+
+
+
+
+
+
+
